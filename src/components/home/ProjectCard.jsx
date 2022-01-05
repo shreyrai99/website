@@ -23,15 +23,16 @@ const ProjectCard = ({ value, deployment }) => {
             {!description ? "" : description || <Skeleton count={3} />}{" "}
           </Card.Text>
 
-          {deployment ? "View Deployment at the following link: " : ""}
-          {deployment ? (
-            <Card.Link href={deployment}>{deployment}</Card.Link>
-          ) : (
-            ""
-          )}
-          <br />
-          {deployment ? <Button href={deployment}>View Deployment</Button> : ""}
           {svn_url ? <CardButtons svn_url={svn_url} /> : <Skeleton count={2} />}
+
+          {deployment && (
+            <a
+              href={deployment}
+              className="mt-3 btn btn-outline-secondary mr-3"
+            >
+              <i className="fas fa-cloud-upload-alt" /> View Deployment
+            </a>
+          )}
           <hr />
           {languages_url ? (
             <Language languages_url={languages_url} repo_url={svn_url} />
@@ -63,7 +64,7 @@ const CardButtons = ({ svn_url }) => {
         <i className="fab fa-github" /> Clone Project
       </a>
       <a href={svn_url} target=" _blank" className="btn btn-outline-secondary">
-        <i className="fab fa-github" /> Repo
+        <i className="fab fa-github" /> Repository
       </a>
     </>
   );
