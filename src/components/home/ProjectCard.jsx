@@ -25,13 +25,15 @@ const ProjectCard = ({ value, deployment }) => {
 
           {svn_url ? <CardButtons svn_url={svn_url} /> : <Skeleton count={2} />}
 
-          {deployment && (
+          {deployment ? (
             <a
               href={deployment}
               className="mt-3 btn btn-outline-secondary mr-3"
             >
               <i className="fas fa-cloud-upload-alt" /> View Deployment
             </a>
+          ) : (
+            ""
           )}
           <hr />
           {languages_url ? (
