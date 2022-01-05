@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/website/static/css/main.caf9e723.css",
+    "main.js": "/website/static/js/main.94a4a69b.js",
+    "static/media/resume.pdf": "/website/static/media/resume.4ec5170bd9029b91eb48.pdf",
+    "static/media/nabh.jpeg": "/website/static/media/nabh.41f3f7a35b8469db7745.jpeg",
+    "static/media/ms.jpg": "/website/static/media/ms.916a6c68a4af26a65b58.jpg",
+    "index.html": "/website/index.html",
+    "main.caf9e723.css.map": "/website/static/css/main.caf9e723.css.map",
+    "main.94a4a69b.js.map": "/website/static/js/main.94a4a69b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.caf9e723.css",
+    "static/js/main.94a4a69b.js"
+  ]
+}
