@@ -4,7 +4,7 @@ import CodingProfilesCard from "./CodingProfilesCard";
 
 const CodingProfiles = ({ heading, message, data }) => {
   return (
-    <section className="section">
+    <section className="section" id="cpprofiles">
       <Container>
         <div fluid className="container-fluid text-sm-center p-5 bg-light">
           <h2 className="display-4 mb-5 text-center">{heading}</h2>

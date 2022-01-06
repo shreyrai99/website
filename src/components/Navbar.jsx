@@ -9,7 +9,8 @@ import {
   repos,
   about,
   skills,
-  experiences
+  experiences,
+  codingProfiles
 } from "../editable-stuff/config.js";
 
 const Navigation = React.forwardRef((props, ref) => {
@@ -56,12 +57,12 @@ const Navigation = React.forwardRef((props, ref) => {
               <Link to={process.env.PUBLIC_URL + "/blog"}>Blog</Link>
             </Nav.Link>
           } */}
-          {repos.show && (
+          {about.show && (
             <Nav.Link
               className="nav-link lead"
-              href={process.env.PUBLIC_URL + "/#projects"}
+              href={process.env.PUBLIC_URL + "/#aboutme"}
             >
-              Projects
+              About
             </Nav.Link>
           )}
           {experiences.show && (
@@ -72,6 +73,15 @@ const Navigation = React.forwardRef((props, ref) => {
               Experience
             </Nav.Link>
           )}
+          {repos.show && (
+            <Nav.Link
+              className="nav-link lead"
+              href={process.env.PUBLIC_URL + "/#projects"}
+            >
+              Projects
+            </Nav.Link>
+          )}
+
           <Nav.Link
             className="nav-link lead"
             href={about.resume}
@@ -80,20 +90,21 @@ const Navigation = React.forwardRef((props, ref) => {
           >
             Resume
           </Nav.Link>
-          {about.show && (
-            <Nav.Link
-              className="nav-link lead"
-              href={process.env.PUBLIC_URL + "/#aboutme"}
-            >
-              About
-            </Nav.Link>
-          )}
+
           {skills.show && (
             <Nav.Link
               className="nav-link lead"
               href={process.env.PUBLIC_URL + "/#skills"}
             >
               Skills
+            </Nav.Link>
+          )}
+          {codingProfiles.show && (
+            <Nav.Link
+              className="nav-link lead"
+              href={process.env.PUBLIC_URL + "/#cpprofiles"}
+            >
+              Coding Profiles
             </Nav.Link>
           )}
         </Nav>

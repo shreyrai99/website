@@ -3,6 +3,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import ProjectCard from "./ProjectCard";
 import axios from "axios";
+import GithubContributionGraph from "./GithubContributionGraph";
 
 const dummyProject = {
   name: null,
@@ -54,33 +55,36 @@ const Project = ({ heading, username, length, specfic, deployment }) => {
   }, [fetchRepos]);
 
   return (
-    <div
-      fluid
-      id="projects"
-      className="container-fluid text-sm-center p-5 bg-light m-0"
-    >
-      <Container className="">
-        <h2 className="display-4 pb-5 text-center">{heading}</h2>
-        <Row>
-          {projectsArray.length
-            ? projectsArray.map((project, index) => (
-                <ProjectCard
-                  key={`project-card-${index}`}
-                  id={`project-card-${index}`}
-                  value={project}
-                  deployment={deployment[index]}
-                />
-              ))
-            : dummyProjectsArr.map((project, index) => (
-                <ProjectCard
-                  key={`dummy-${index}`}
-                  id={`dummy-${index}`}
-                  value={project}
-                />
-              ))}
-        </Row>
-      </Container>
-    </div>
+    <>
+      <div
+        fluid
+        id="projects"
+        className="container-fluid text-sm-center p-5 bg-light m-0"
+      >
+        <Container className="">
+          <h2 className="display-4 pb-5 text-center">{heading}</h2>
+          <Row>
+            {projectsArray.length
+              ? projectsArray.map((project, index) => (
+                  <ProjectCard
+                    key={`project-card-${index}`}
+                    id={`project-card-${index}`}
+                    value={project}
+                    deployment={deployment[index]}
+                  />
+                ))
+              : dummyProjectsArr.map((project, index) => (
+                  <ProjectCard
+                    key={`dummy-${index}`}
+                    id={`dummy-${index}`}
+                    value={project}
+                  />
+                ))}
+          </Row>
+        </Container>
+      </div>
+      <GithubContributionGraph username={username} />
+    </>
   );
 };
 
