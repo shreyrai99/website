@@ -1,15 +1,21 @@
 {
   "files": {
     "main.css": "/website/static/css/main.caf9e723.css",
-    "main.js": "/website/static/js/main.f8554363.js",
+    "main.js": "/website/static/js/main.9c06d14f.js",
+    "static/media/hackerrank.png": "/website/static/media/hackerrank.31b44d89976c6c034765.png",
+    "static/media/cc.png": "/website/static/media/cc.a03e46dbc64bd36f03f7.png",
+    "static/media/spoj.png": "/website/static/media/spoj.91e8d25da1293eaf6b89.png",
+    "static/media/hackerearth.png": "/website/static/media/hackerearth.259baabc54d6126a7102.png",
     "static/media/resume.pdf": "/website/static/media/resume.4ec5170bd9029b91eb48.pdf",
     "static/media/nabh.jpeg": "/website/static/media/nabh.41f3f7a35b8469db7745.jpeg",
+    "static/media/leetcode.jpg": "/website/static/media/leetcode.5dd7a5749199ec73c2d7.jpg",
+    "static/media/codeforces.jpg": "/website/static/media/codeforces.88b3f5086e6553f8cefe.jpg",
     "index.html": "/website/index.html",
     "main.caf9e723.css.map": "/website/static/css/main.caf9e723.css.map",
-    "main.f8554363.js.map": "/website/static/js/main.f8554363.js.map"
+    "main.9c06d14f.js.map": "/website/static/js/main.9c06d14f.js.map"
   },
   "entrypoints": [
     "static/css/main.caf9e723.css",
-    "static/js/main.f8554363.js"
+    "static/js/main.9c06d14f.js"
   ]
 }
