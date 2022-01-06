@@ -113,13 +113,13 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "C/C++" },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
+    { name: "C/C++", value: 70 },
+    { name: "SQL", value: 65 },
+    { name: "Data Structures", value: 70 },
     { name: "Algorithms", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
+    { name: "JavaScript", value: 70 },
+    { name: "React", value: 70 },
+    { name: "HTML/CSS", value: 65 },
     { name: "Machine Learning", value: 50 }
   ],
   softSkills: [
@@ -145,7 +145,7 @@ const getInTouch = {
 
 const experiences = {
   show: true,
-  heading: "Experiences",
+  heading: "Experience",
   data: [
     {
       role: "Software Engineer Intern", // Here Add Company Name
@@ -157,6 +157,51 @@ const experiences = {
       companylogo: require("../assets/img/msicon.png"),
       date: "May 2021 – July 2021"
     }*/
+  ]
+};
+
+const codingProfiles = {
+  show: true,
+  heading: "Competitive Coding Profiles",
+  message:
+    "I use Competitive Programming as a tool to make a strong grip on Data strcutures and algorithms. I regularly take part in CP contests. Some of my Coding profiles are listed below 😃",
+  data: [
+    {
+      website: "Codechef", // Here Add the name of coding platform
+      companyLogo: require("../assets/imgcoding/cc.png"),
+      description: "4 Star rated, rating: 1898",
+      profileURL: "https://www.codechef.com/users/shreyrai"
+    },
+    {
+      website: "Codeforces", // Here Add the name of coding platform
+      companyLogo: require("../assets/imgcoding/codeforces.jpg"),
+      description: "Specialist",
+      profileURL: "https://codeforces.com/profile/sukhoi_mki"
+    },
+    {
+      website: "HackerRank", // Here Add the name of coding platform
+      companyLogo: require("../assets/imgcoding/hackerrank.png"),
+      description: "6 star in problem solving",
+      profileURL: "https://www.hackerrank.com/kumarshrey_21099"
+    },
+    {
+      website: "Leetcode", // Here Add the name of coding platform
+      companyLogo: require("../assets/imgcoding/leetcode.jpg"),
+      description: "",
+      profileURL: "https://leetcode.com/shreyrai99/"
+    },
+    {
+      website: "Hackerearth", // Here Add the name of coding platform
+      companyLogo: require("../assets/imgcoding/hackerearth.png"),
+      description: "Contest rating: 1551",
+      profileURL: "https://www.hackerearth.com/users/shrey162"
+    },
+    {
+      website: "SPOJ", // Here Add the name of coding platform
+      companyLogo: require("../assets/imgcoding/spoj.png"),
+      description: "",
+      profileURL: "https://www.spoj.com/users/shreyrai99/"
+    }
   ]
 };
 
@@ -173,5 +218,6 @@ export {
   skills,
   leadership,
   getInTouch,
-  experiences
+  experiences,
+  codingProfiles
 };

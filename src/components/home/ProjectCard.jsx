@@ -29,6 +29,7 @@ const ProjectCard = ({ value, deployment }) => {
             <a
               href={deployment}
               className="mt-3 btn btn-outline-secondary mr-3"
+              target="_blank"
             >
               <i className="fas fa-cloud-upload-alt" /> View Deployment
             </a>
@@ -62,10 +63,18 @@ const CardButtons = ({ svn_url }) => {
       <a
         href={`${svn_url}/archive/master.zip`}
         className="btn btn-outline-secondary mr-3"
+        target="_blank"
+        rel="noreferrer"
       >
         <i className="fab fa-github" /> Clone Project
       </a>
-      <a href={svn_url} target=" _blank" className="btn btn-outline-secondary">
+      <a
+        href={svn_url}
+        target=" _blank"
+        className="btn btn-outline-secondary"
+        target="_blank"
+        rel="noreferrer"
+      >
         <i className="fab fa-github" /> Repository
       </a>
     </>
@@ -105,6 +114,7 @@ const Language = ({ languages_url, repo_url }) => {
               className="badge badge-light card-link"
               href={repo_url + `/search?l=${language}`}
               target=" _blank"
+              rel="noreferrer"
             >
               {language}:{" "}
               {Math.trunc((data[language] / total_count) * 1000) / 10} %
