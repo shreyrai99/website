@@ -1,21 +1,30 @@
 {
   "files": {
     "main.css": "/website/static/css/main.caf9e723.css",
-    "main.js": "/website/static/js/main.be1116b0.js",
+    "main.js": "/website/static/js/main.4b8825b2.js",
     "static/media/hackerrank.png": "/website/static/media/hackerrank.31b44d89976c6c034765.png",
     "static/media/cc.png": "/website/static/media/cc.a03e46dbc64bd36f03f7.png",
+    "static/media/sql.png": "/website/static/media/sql.b6aaaef4ff73f125803a.png",
     "static/media/spoj.png": "/website/static/media/spoj.91e8d25da1293eaf6b89.png",
     "static/media/hackerearth.png": "/website/static/media/hackerearth.259baabc54d6126a7102.png",
     "static/media/resume.pdf": "/website/static/media/resume.4ec5170bd9029b91eb48.pdf",
     "static/media/nabh.jpeg": "/website/static/media/nabh.41f3f7a35b8469db7745.jpeg",
+    "static/media/azure.png": "/website/static/media/azure.1995fb2cd23306b1b3c2.png",
+    "static/media/react.png": "/website/static/media/react.7aa3e7438534a7686f56.png",
     "static/media/leetcode.jpg": "/website/static/media/leetcode.5dd7a5749199ec73c2d7.jpg",
+    "static/media/csharp.png": "/website/static/media/csharp.48195cec3a5af73c77f8.png",
+    "static/media/c.png": "/website/static/media/c.564faee847547f5be8f1.png",
+    "static/media/cpp.png": "/website/static/media/cpp.9002a804bbfa0354d0b8.png",
+    "static/media/node.png": "/website/static/media/node.a4713ff2ca054bf23788.png",
     "static/media/codeforces.jpg": "/website/static/media/codeforces.88b3f5086e6553f8cefe.jpg",
+    "static/media/python.png": "/website/static/media/python.3453437968782f6be8b4.png",
+    "static/media/css.png": "/website/static/media/css.5721a3928fe43de6baf8.png",
     "index.html": "/website/index.html",
     "main.caf9e723.css.map": "/website/static/css/main.caf9e723.css.map",
-    "main.be1116b0.js.map": "/website/static/js/main.be1116b0.js.map"
+    "main.4b8825b2.js.map": "/website/static/js/main.4b8825b2.js.map"
   },
   "entrypoints": [
     "static/css/main.caf9e723.css",
-    "static/js/main.be1116b0.js"
+    "static/js/main.4b8825b2.js"
   ]
 }
