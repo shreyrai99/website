@@ -9,7 +9,8 @@ import {
   skills,
   getInTouch,
   experiences,
-  codingProfiles
+  codingProfiles,
+  toolsAndLanguages
 } from "./editable-stuff/config.js";
 import MainBody from "./components/home/MainBody";
 import AboutMe from "./components/home/AboutMe";
@@ -24,6 +25,7 @@ import Leadership from "./components/home/Leadership.jsx";
 
 import Experience from "./components/home/Experience";
 import CodingProfiles from "./components/home/CodingProfiles";
+import ToolsAndLanguages from "./components/home/ToolsAndLanguages.jsx";
 
 const Home = React.forwardRef((props, ref) => {
   return (
@@ -68,6 +70,9 @@ const Home = React.forwardRef((props, ref) => {
           hardSkills={skills.hardSkills}
           softSkills={skills.softSkills}
         />
+      )}
+      {toolsAndLanguages.show && (
+        <ToolsAndLanguages toolsAndLanguages={toolsAndLanguages} />
       )}
       {codingProfiles.show && (
         <CodingProfiles

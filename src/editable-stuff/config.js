@@ -205,6 +205,63 @@ const codingProfiles = {
   ]
 };
 
+const toolsAndLanguages = {
+  show: true,
+  heading: "Technical Skills",
+  message:
+    "I am a quick learner and I love to learn new technologies and polish my existing skills by working on interesting projects. Below are some of the languages, tools and frameworks I have worked with.",
+  data: [
+    {
+      skill: "C++", // Here Add the name of coding platform
+      skillLogo: require("../assets/imgskills/cpp.png")
+    },
+    {
+      skill: "C", // Here Add the name of coding platform
+      skillLogo: require("../assets/imgskills/c.png")
+    },
+    {
+      skill: "Python", // Here Add the name of coding platform
+      skillLogo: require("../assets/imgskills/python.png")
+    },
+    {
+      skill: "JavaScript", // Here Add the name of coding platform
+      skillLogo: require("../assets/imgskills/js.png")
+    },
+    {
+      skill: "React", // Here Add the name of coding platform
+      skillLogo: require("../assets/imgskills/react.png")
+    },
+    {
+      skill: "NodeJS", // Here Add the name of coding platform
+      skillLogo: require("../assets/imgskills/node.png")
+    },
+    {
+      skill: "SQL", // Here Add the name of coding platform
+      skillLogo: require("../assets/imgskills/sql.png")
+    },
+    {
+      skill: "Git", // Here Add the name of coding platform
+      skillLogo: require("../assets/imgskills/git.png")
+    },
+    {
+      skill: "Azure", // Here Add the name of coding platform
+      skillLogo: require("../assets/imgskills/azure.png")
+    },
+    {
+      skill: "C#", // Here Add the name of coding platform
+      skillLogo: require("../assets/imgskills/csharp.png")
+    },
+    {
+      skill: "HTML", // Here Add the name of coding platform
+      skillLogo: require("../assets/imgskills/html.png")
+    },
+    {
+      skill: "CSS", // Here Add the name of coding platform
+      skillLogo: require("../assets/imgskills/css.png")
+    }
+  ]
+};
+
 // Blog SECTION
 // const blog = {
 //   show: false,
@@ -219,5 +276,6 @@ export {
   leadership,
   getInTouch,
   experiences,
-  codingProfiles
+  codingProfiles,
+  toolsAndLanguages
 };
