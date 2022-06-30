@@ -162,20 +162,30 @@ const experiences = {
         {
           role: "Software Engineer",
           date: "July 2022 - Present",
-          key: 1,
-          location: "Bangalore, India"
+
+          location: "Bangalore, India",
+          startYear: 2022,
+          startMonth: 7, //between 1 to 12
+          endYear: 0, // 0 if currently working
+          endMonth: 0 // 0 if currently working
         },
         {
           role: "Software Engineer Intern",
           date: "January 2022 – June 2022",
-          key: 2,
-          location: "Bangalore, India"
+          location: "Bangalore, India",
+          startYear: 2022,
+          startMonth: 1, //between 1 to 12
+          endYear: 2022, // 0 if currently working
+          endMonth: 6 // 0 if currently working
         },
         {
           role: "Software Engineer Intern",
           date: "May 2021 – July 2021",
-          key: 3,
-          location: "Bangalore, India"
+          location: "Bangalore, India",
+          startYear: 2021,
+          startMonth: 5, //between 1 to 12
+          endYear: 2021, // 0 if currently working
+          endMonth: 7 // 0 if currently working
         }
       ]
     }
