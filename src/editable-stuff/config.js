@@ -28,6 +28,10 @@ const mainBody = {
       url: "https://www.linkedin.com/in/shreyrai99/"
     },
     {
+      image: "fa-google",
+      url: "mailto:kumarshrey.21099@gmail.com"
+    },
+    {
       image: "fa-twitter",
       url: "https://www.twitter.com/shreyrai99/"
     }
@@ -70,6 +74,7 @@ const repos = {
   reposLength: 0,
   specificRepos: [
     "Diabetes-Predictor",
+    "sanjeevani",
     "social-media-website",
     "Corona-Scrapper",
     "Heart-Disease-Predictor",
@@ -77,6 +82,7 @@ const repos = {
   ],
   specificlink: [
     "https://diabetes-prediction-by-shrey.herokuapp.com/",
+    "http://sanjeevni.herokuapp.com/",
     "https://shreybook.herokuapp.com/",
     "https://shrey-covid.herokuapp.com/",
     "https://heart-diseasepredictor.herokuapp.com/",
@@ -113,14 +119,14 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "C/C++", value: 70 },
-    { name: "SQL", value: 65 },
-    { name: "Data Structures", value: 70 },
-    { name: "Algorithms", value: 65 },
+    { name: "Data Structures", value: 80 },
+    { name: "Algorithms", value: 80 },
+    { name: "Object Oriented Programming", value: 65 },
+    { name: "Operating System", value: 65 },
+    { name: "Web Development", value: 65 },
+    { name: "Machine Learning", value: 55 },
     { name: "JavaScript", value: 70 },
-    { name: "React", value: 70 },
-    { name: "HTML/CSS", value: 65 },
-    { name: "Machine Learning", value: 50 }
+    { name: "C/C++", value: 80 }
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
@@ -150,7 +156,28 @@ const experiences = {
     {
       role: "Software Engineer Intern", // Here Add Company Name
       companylogo: require("../assets/img/msicon.png"),
-      date: "January 2022 – Present, May 2021 – July 2021"
+      date: "January 2022 – Present, May 2021 – July 2021",
+      companyName: "Microsoft",
+      rolesAndDate: [
+        {
+          role: "Software Engineer",
+          date: "July 2022 - Present",
+          key: 1,
+          location: "Bangalore, India"
+        },
+        {
+          role: "Software Engineer Intern",
+          date: "January 2022 – June 2022",
+          key: 2,
+          location: "Bangalore, India"
+        },
+        {
+          role: "Software Engineer Intern",
+          date: "May 2021 – July 2021",
+          key: 3,
+          location: "Bangalore, India"
+        }
+      ]
     }
     /*{
       role: "Software Engineer Intern", // Here Add Company Name

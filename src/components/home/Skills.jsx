@@ -38,6 +38,8 @@ function Skills({ heading, hardSkills, softSkills }) {
             tabClassName="skills-tab lead"
             eventKey="hard-skills"
             title="Technical Skills"
+            fill
+            justify
           >
             <Row className="pt-3 px-1">
               <SkillsTab skills={hardSkills} isScrolled={isScrolled} />
@@ -47,6 +49,8 @@ function Skills({ heading, hardSkills, softSkills }) {
             tabClassName="skills-tab lead"
             eventKey="soft-skills"
             title="Soft Skills"
+            fill
+            justify
           >
             <Row className="pt-3 px-1">
               <SkillsTab skills={softSkills} isScrolled={isScrolled} />

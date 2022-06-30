@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Col, Card } from "react-bootstrap";
+import { Col, Row } from "react-bootstrap";
 const ExperienceCard = ({ data }) => {
   return (
     <Col lg="12">
@@ -12,11 +12,23 @@ const ExperienceCard = ({ data }) => {
           width="100%"
           maxWidth="200px"
         />
-        <p className="lead">
+        {/* <p className="lead">
           {data.role}
           <br />
           {data.date}
-        </p>
+        </p> */}
+        {data.rolesAndDate.map(val => {
+          return (
+            <>
+              <h3 className="text-muted">{val.role}</h3>
+              <p className="lead">
+                {val.date}
+                <br />
+                {val.location}
+              </p>
+            </>
+          );
+        })}
       </div>
     </Col>
   );
