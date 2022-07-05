@@ -1,10 +1,13 @@
 {
   "files": {
     "main.css": "/website/static/css/main.caf9e723.css",
-    "main.js": "/website/static/js/main.eb432aee.js",
+    "main.js": "/website/static/js/main.199982bb.js",
+    "static/media/bit1.png": "/website/static/media/bit1.8208c5f2c0b01473cef0.png",
     "static/media/hackerrank.png": "/website/static/media/hackerrank.31b44d89976c6c034765.png",
     "static/media/cc.png": "/website/static/media/cc.a03e46dbc64bd36f03f7.png",
+    "static/media/classXII.jpg": "/website/static/media/classXII.aa24bdf6d5f72776e585.jpg",
     "static/media/sql.png": "/website/static/media/sql.b6aaaef4ff73f125803a.png",
+    "static/media/classX.jpg": "/website/static/media/classX.37c6c8c6113697a92dc4.jpg",
     "static/media/spoj.png": "/website/static/media/spoj.91e8d25da1293eaf6b89.png",
     "static/media/hackerearth.png": "/website/static/media/hackerearth.259baabc54d6126a7102.png",
     "static/media/resume.pdf": "/website/static/media/resume.4ec5170bd9029b91eb48.pdf",
@@ -21,10 +24,10 @@
     "static/media/css.png": "/website/static/media/css.5721a3928fe43de6baf8.png",
     "index.html": "/website/index.html",
     "main.caf9e723.css.map": "/website/static/css/main.caf9e723.css.map",
-    "main.eb432aee.js.map": "/website/static/js/main.eb432aee.js.map"
+    "main.199982bb.js.map": "/website/static/js/main.199982bb.js.map"
   },
   "entrypoints": [
     "static/css/main.caf9e723.css",
-    "static/js/main.eb432aee.js"
+    "static/js/main.199982bb.js"
   ]
 }
