@@ -197,6 +197,37 @@ const experiences = {
   ]
 };
 
+const education = {
+  show: true,
+  heading: "Education",
+  data: [
+    {
+      institute: "Birla Institute of Technology, Mesra",
+      logo: require("../assets/imgeducation/bit1.png"),
+      details:
+        "Completed my B.Tech in Computer Science from Birla Institute of Technology, Mesra (2018-2022). I was a core team member of the Google Student Developer Club. Won numerous events in my college's cultural festival Bitotsav. I also participated and won in numerous technical hackathons, notable amongst them being our college's flagship event Hack-A-Bit. My team was also the onsite finalist at the Smart India hackathon which is organised annually by the Government of India.",
+      marks: "GPA: 8.80/10",
+      degree: "Bachelor of Technology"
+    },
+    {
+      institute: "Sunbeam Bhagwanpur, Varanasi (CBSE)",
+      logo: require("../assets/imgeducation/classXII.jpg"),
+      details:
+        "Completed my Intermediate from Sunbeam English School, Varanasi. I was awarded the Icon Of Inspiration Award and Visvesvaraya Best in Science Award for my overall academic performance. I scored 100 percentile in Mathematics in my boards exam and was amongst the top 0.1 percentile in Mathematics in AISSCE Exam CBSE , Class XII in the country.",
+      marks: "Board Percentage: 95.4%",
+      degree: "Intermediate"
+    },
+    {
+      institute: "St. Paul’s Senior Secondary School (CBSE)",
+      logo: require("../assets/imgeducation/classX.jpg"),
+      details:
+        "Completed my High School from St. Paul’s Senior Secondary School. I was the Captain of the Emerald House. I was the winner of numerous inter school quiz and debate competitions and scored a perfect 10 CGPA in my boards exam.",
+      marks: "Board CGPA: 10/10",
+      degree: "High School"
+    }
+  ]
+};
+
 const codingProfiles = {
   show: true,
   heading: "Competitive Coding Profiles",
@@ -314,5 +345,6 @@ export {
   getInTouch,
   experiences,
   codingProfiles,
-  toolsAndLanguages
+  toolsAndLanguages,
+  education
 };

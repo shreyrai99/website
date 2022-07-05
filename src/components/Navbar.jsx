@@ -10,6 +10,7 @@ import {
   about,
   skills,
   experiences,
+  education,
   codingProfiles
 } from "../editable-stuff/config.js";
 
@@ -71,6 +72,14 @@ const Navigation = React.forwardRef((props, ref) => {
               href={process.env.PUBLIC_URL + "/#experience"}
             >
               Experience
+            </Nav.Link>
+          )}
+          {education.show && (
+            <Nav.Link
+              className="nav-link lead"
+              href={process.env.PUBLIC_URL + "/#education"}
+            >
+              Education
             </Nav.Link>
           )}
           {repos.show && (
