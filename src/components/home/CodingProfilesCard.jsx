@@ -5,9 +5,9 @@ import { Col, Card } from "react-bootstrap";
 const CodingProfilesCard = ({ profile }) => {
   const { website, companyLogo, description, profileURL } = profile;
   return (
-    <Col md={6}>
+    <Col md={4}>
       <Card className="card shadow-lg p-3 mb-5 bg-white rounded">
-        <Card.Img src={companyLogo} variant="top" />
+        <Card.Img src={companyLogo} variant="top" style={{ maxHeight: 150 }} />
         <Card.Body>
           <Card.Title as="h5" className="text-center">
             {website || <Skeleton />}{" "}

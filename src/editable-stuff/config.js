@@ -87,6 +87,14 @@ const repos = {
     "https://shrey-covid.herokuapp.com/",
     "https://heart-diseasepredictor.herokuapp.com/",
     ""
+  ],
+  specificRepoName: [
+    "Diabetes Prediction Website",
+    "Sanjeevani: The hospital at your doorstep",
+    "Social Media website for connecting Developers",
+    "Corona Scrapper",
+    "Heart Disease Prediction Website",
+    "Quiz Website"
   ]
 };
 
@@ -205,7 +213,7 @@ const education = {
       institute: "Birla Institute of Technology, Mesra",
       logo: require("../assets/imgeducation/bit1.png"),
       details:
-        "Completed my B.Tech in Computer Science from Birla Institute of Technology, Mesra (2018-2022). I was a core team member of the Google Student Developer Club. Won numerous events in my college's cultural festival Bitotsav. I also participated and won in numerous technical hackathons, notable amongst them being our college's flagship event Hack-A-Bit. My team was also the onsite finalist at the Smart India hackathon which is organised annually by the Government of India.",
+        "Completed my B.Tech in Computer Science from Birla Institute of Technology, Mesra (2018-2022). I was a core team member of the Google Student Developer Club. I participated and won in numerous technical hackathons during my college life, notable amongst them being our college's flagship event Hack-A-Bit & Government of India's Smart India hackathon where my team was the onsite finalist.",
       marks: "GPA: 8.80/10",
       degree: "Bachelor of Technology"
     },
@@ -221,7 +229,7 @@ const education = {
       institute: "St. Paul’s Senior Secondary School (CBSE)",
       logo: require("../assets/imgeducation/classX.jpg"),
       details:
-        "Completed my High School from St. Paul’s Senior Secondary School. I was the Captain of the Emerald House. I was the winner of numerous inter school quiz and debate competitions and scored a perfect 10 CGPA in my boards exam.",
+        "Completed my High School from St. Paul’s Senior Secondary School. I was the Captain of the Emerald House. During my high school I was the winner of numerous inter school quiz and debate competitions and scored a perfect 10 CGPA in my boards exam.",
       marks: "Board CGPA: 10/10",
       degree: "High School"
     }
@@ -230,7 +238,7 @@ const education = {
 
 const codingProfiles = {
   show: true,
-  heading: "Competitive Coding Profiles",
+  heading: "Coding Profiles",
   message:
     "I use Competitive Programming as a tool to make a strong grip on Data strcutures and algorithms. I regularly take part in CP contests. Some of my Coding profiles are listed below 😃",
   data: [

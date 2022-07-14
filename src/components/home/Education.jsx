@@ -14,7 +14,7 @@ const Education = ({ education }) => {
           <h2 className="display-4 mb-5 text-center">{education.heading}</h2>
           <Row>
             {education.data.map(data => (
-              <Col key={data._id} md={6}>
+              <Col key={data._id} md={4}>
                 <EducationCard key={data.institute} data={data} />
               </Col>
             ))}
