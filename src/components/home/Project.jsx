@@ -83,7 +83,7 @@ const Project = ({ heading, username, length, specfic, deployment }) => {
           </Row>
         </Container>
       </div>
-      <GithubContributionGraph username={username} />
+      {/*<GithubContributionGraph username={username} />*/}
     </>
   );
 };
